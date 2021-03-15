@@ -1,0 +1,38 @@
+
+
+#define SPI_MISO 4
+#define SPI_MOSI 14
+#define SPI_SCLK 2
+
+#define TFT_MISO SPI_MISO
+#define TFT_MOSI SPI_MOSI
+#define TFT_SCLK SPI_SCLK
+#define TFT_CS 12   // Chip select control pin
+#define TFT_DC 15   // Data Command control pin
+#define TFT_BK -1    // TFT backlight  pin
+#define TFT_RST -1  // No use
+
+#define TFT_WITDH 240
+#define TFT_HEIGHT 320
+
+#define I2C_SDA 18
+#define I2C_SCL 23
+
+#define PWDN_GPIO_NUM 32
+#define RESET_GPIO_NUM -1
+#define XCLK_GPIO_NUM 0
+#define SIOD_GPIO_NUM 26
+#define SIOC_GPIO_NUM 27
+
+#define Y9_GPIO_NUM 35
+#define Y8_GPIO_NUM 34
+#define Y7_GPIO_NUM 39  //
+#define Y6_GPIO_NUM 36  //
+#define Y5_GPIO_NUM 21
+#define Y4_GPIO_NUM 19
+#define Y3_GPIO_NUM 18
+#define Y2_GPIO_NUM 5
+#define VSYNC_GPIO_NUM 25
+#define HREF_GPIO_NUM 23
+#define PCLK_GPIO_NUM 22
+#define XCLK_FREQ 20000000

@@ -1,0 +1,43 @@
+[scheme:extram]
+entries:
+    bss -> ext_ram_bss
+
+[mapping:ade]
+archive: libade.a
+entries:
+    * (extram)
+
+[mapping:easypr]
+archive: libeasypr.a
+entries:
+    * (extram)
+
+[mapping:liblibpng]
+archive: liblibpng.a
+entries:
+    * (extram)
+
+[mapping:opencv_core]
+archive: libopencv_core.a
+entries:
+    * (extram)
+
+[mapping:opencv_features2d]
+archive: libopencv_features2d.a
+entries:
+    * (extram)
+
+[mapping:opencv_flann]
+archive: libopencv_flann.a
+entries:
+    * (extram)
+
+[mapping:opencv_imgcodecs]
+archive: opencv_imgcodecs.a
+entries:
+    * (extram)
+
+[mapping:opencv_imgproc]
+archive: libopencv_imgproc.a
+entries:
+    * (extram)
